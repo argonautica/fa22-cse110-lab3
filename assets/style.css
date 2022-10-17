@@ -30,6 +30,8 @@ h1 {
 h2 {
 	color: rgb(200, 99, 71);
 	margin: 10px 10px 10px 10px ;
+	border-top: 10px;
+	border-right: 10px;
 }
 
 h3 {
@@ -39,6 +41,9 @@ h3 {
 
 h4 {
 	color: #34ebcf;
+	border: 10px auto;
+	border-width: 10px;
+	border-color: greenyellow;
 
 }
 
@@ -121,4 +126,8 @@ a:active {
 
 span.abc {
 	background-color: brown;
+}
+
+a[href$=".com"] {
+  font-style: italic;
 }
